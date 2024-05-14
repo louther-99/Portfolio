@@ -46,14 +46,16 @@ function addAnimation() {
 
 }
 
-const underEntry = document.getElementsByClassName("container-under-entry");
-underEntry.addEventListener('mouseover', event => {
-    underEntry.className = "glass";
-})
+// const underEntry = document.getElementById("underEntry");
+// underEntry.addEventListener("mouseover", event => {
+//     event.target.classList.add("glass");
+//     console.log(`This is the event: ${event}`);
+// });
 
-function addEventOnHover (){
-
-}
+// underEntry.addEventListener("mouseout", event => {
+//     event.target.classList.remove("glass");
+//     console.log(`This is the event: ${event}`);
+// });
 
 // elmnt.style.top = "60";
 // ss[0].style.top = "60";
