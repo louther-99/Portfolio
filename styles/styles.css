@@ -384,7 +384,7 @@ body > div{
     color: var(--text-color);
 }
 /* Mark */
-.fa-brands:hover{
+.container-under-entry  .fa-brands:hover{
     transform: translateY(-10px);
 
     
